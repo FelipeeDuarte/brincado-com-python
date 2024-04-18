@@ -1,0 +1,40 @@
+numero = int(input('digite um numero: '))
+soma1 = (numero + 1)
+soma2 = (numero - 1)
+print(f'seu numero escolhido foi {numero}, o sucessor é {soma1}, e o antecessor é o {soma2}.')
+
+numero2 = int(input('digite um outro numero: '))
+dobro = (numero2 * 2)
+triplo = (numero * 3)
+raiz = (numero2 ** (1/2))
+print(f'seu outro numero e {numero2}, o dobro e {dobro}, o triplo e {triplo}, a raiz e {raiz}.')
+
+
+ 
+nota1 = int(input('qual a nota 1: '))
+nota2 = int(input('qual a nota 2: '))
+soma = (nota1 + nota2)
+media = (soma / 2)
+print(f'a soma das notas e {soma}, e a media e {media}') 
+
+
+ 
+numero = int(input('digite um numero: '))
+tabuada = (numero * 1, numero*2 ,numero*3 ,numero*4 ,numero*5 ,numero*6 ,numero*7 ,numero*8 ,numero*9 ,numero*10 )
+print(f'a tabuada do {numero}, e  {tabuada}  ')
+ 
+
+
+numero = float (input('digite o valor em metros: '))
+centimetros = ( numero / 100)
+militro = (numero / 1000)
+print(f'o valor de {numero} em centimetros e: {centimetros} e o valor em militro e: {militro}') 
+
+
+
+largura = float(input('digite a largura: '))
+altura = float(input('digite a altura: '))
+area = (altura * largura)
+tinta = (area / 2)
+print(f'a area dos vales e: {area} e a quantidade de tinta necessaria e de: {tinta} ')
+ 
